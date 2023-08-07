@@ -47,10 +47,14 @@
     font-weight: 500;
     transition: .5s;
 }
-
+span{
+    color: var(--primary);
+}
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+    background-color: var(--primary);
+    border: var(--primary);
 }
 
 .btn-square {
@@ -338,7 +342,7 @@ div#service{
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 .dark .service-item.d-flex.flex-column.flex-sm-row.bg-white.rounded.h-100.p-4.p-lg-5 {
-    background-color: #404040 !important;
+    background: linear-gradient(120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05)) !important;
     border: #404040 !important;
 }
 
