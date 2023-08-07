@@ -172,11 +172,14 @@
     transition: 0.3s;
     transform: translateX(50px);
   }
-  
+  .dark h1, h2 , h3 ,h4 , h5 , h6  {
+    color: #e1e1e1;
+  } 
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
     background: url(../img/bg-header.png) left top no-repeat;
+    background-color: transparent !important;
 }
 
 .typed-cursor {
@@ -324,7 +327,9 @@
     background: url(../img/bg-icon.png) center center no-repeat;
     background-size: cover;
 }
-
+div#service{
+    background-color: transparent !important;
+}
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
@@ -404,6 +409,10 @@
 
 
 /*** Testimonial ***/
+div#testimonial{
+    background-color: transparent !important;
+}
+
 .testimonial-left,
 .testimonial-right {
     position: relative;
