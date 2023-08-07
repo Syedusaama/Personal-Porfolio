@@ -1,10 +1,12 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6244C5;
+    --primary: #FF4C29;
     --secondary: #FFC448;
     --light: #FAFAFB;
     --dark: #12141D;
 }
+
+
 
 .back-to-top {
     position: fixed;
@@ -155,7 +157,7 @@
   }
   /* ---- ---- Dark Mode ---- ---- */
   .dark {
-    background-color: #1e1e1e;
+    background-color: #082032;
   }
   .dark .toggle {
     background: #1e1e1e;
@@ -172,9 +174,9 @@
     transition: 0.3s;
     transform: translateX(50px);
   }
-  .dark h1, h2 , h3 ,h4 , h5 , h6  {
+  /* .dark h1, h2 , h3 ,h4 , h5 , h6, p  {
     color: #e1e1e1;
-  } 
+  }  */
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
@@ -329,6 +331,15 @@
 }
 div#service{
     background-color: transparent !important;
+}
+.rounded{
+    border-radius: 10px !important;
+    border: 1px solid #e6e6e6 !important;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.dark .service-item.d-flex.flex-column.flex-sm-row.bg-white.rounded.h-100.p-4.p-lg-5 {
+    background-color: #404040 !important;
+    border: #404040 !important;
 }
 
 /*** Project Portfolio ***/
